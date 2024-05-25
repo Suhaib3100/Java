@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Employee{
+    int id;
+    String name;
+    public void printdetails(){
+        System.out.println("My ID is "+id);
+        System.out.println("My name is "+name);
+    }
+}
+public class atif2 {
+    public static void main(String[] args) {
+        Employee suhaib=new Employee();
+        Employee abuzar = new Employee();
+        Employee neha = new Employee();
+        suhaib.id=69;
+        suhaib.name="King";
+        neha.id=99;
+        neha.name="Queeen";
+        abuzar.id=1;
+        abuzar.name="pusa";
+        suhaib.printdetails();
+        neha.printdetails();
+        abuzar.printdetails();
+
+    }
+}
